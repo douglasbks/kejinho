@@ -29,38 +29,35 @@ Projeto da empresa Kejinho para encomendas, o app funciona tanto para usuários 
   DB_NAME=nome do banco de dados
   DB_PASSWORD=senha do banco de dados
 
-  Clone o repositório:
-  git clone <https://github.com/douglasbks/kejinho>
-  cd <kejinho>
-
-  Instale as dependências:
-  yarn install
-  # ou
-  npm install
-
-  Inicie o servidor de desenvolvimento:
-  expo start
-
-  🗂️ Estrutura do Projeto
-  assets/
-     #Imagens usadas no app
-  backend/
-     ├── index.js/    # Conexão com banco de dados e apis do app
-  src/
-     ├── navigation/    # Rotas para as telas no app
-     ├── screens/       # Telas principais
+Clone o repositório:
+git clone <https://github.com/douglasbks/kejinho>
+cd <kejinho>
+Instale as dependências:
+yarn install
+# ou
+npm install
+Inicie o servidor de desenvolvimento:
+expo start
+🗂️ Estrutura do Projeto
+assets/
+   #Imagens usadas no app
+backend/
+   ├── index.js/    # Conexão com banco de dados e apis do app
+src/
+   ├── navigation/    # Rotas para as telas no app
+   ├── screens/       # Telas principais
 
 └── App.js         # Entrada principal do app
 
-🛠️ Funcionalidades
+## 🛠️ Funcionalidades
 Usuário:
-Fazer Encomendas.
-Ver histórico e status de encomendas.
-Entrar em contato com a empresa.
+- Fazer Encomendas.
+- Ver histórico e status de encomendas.
+- Entrar em contato com a empresa.
 Admin:
-Verificar encomendas e mudar o status delas.
-Alterar e Adicionar Produtos.
-Alterar dias de entrega disponíveis.
+- Verificar encomendas e mudar o status delas.
+- Alterar e Adicionar Produtos.
+- Alterar dias de entrega disponíveis.
 
-📜 Licença
+## 📜 Licença
 Este projeto está sob a licença MIT.
