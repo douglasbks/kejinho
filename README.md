@@ -39,21 +39,23 @@ Projeto da empresa Kejinho para encomendas, o app funciona tanto para usuários 
 - Inicie o servidor de desenvolvimento:
 - expo start
 ## 🗂️ Estrutura do Projeto
-assets/
-   #Imagens usadas no app
-backend/
-   ├── index.js/    # Conexão com banco de dados e apis do app
-src/
-   ├── navigation/    # Rotas para as telas no app
-   ├── screens/       # Telas principais
+assets/                  # Imagens usadas no app
 
-└── App.js         # Entrada principal do app
+backend/                 # Backend do aplicativo (API e conexão com o banco)
+├── index.js             # Conexão com o banco de dados e APIs do app
+
+src/                     # Código fonte do app
+├── navigation/          # Definição das rotas para as telas do app
+├── screens/             # Telas principais do aplicativo
+
+└── App.js               # Componente principal do app
 
 ## 🛠️ Funcionalidades
 Usuário:
 - Fazer Encomendas.
 - Ver histórico e status de encomendas.
 - Entrar em contato com a empresa.
+
 Admin:
 - Verificar encomendas e mudar o status delas.
 - Alterar e Adicionar Produtos.
