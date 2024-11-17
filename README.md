@@ -29,16 +29,16 @@ Projeto da empresa Kejinho para encomendas, o app funciona tanto para usuários 
   DB_NAME=nome do banco de dados
   DB_PASSWORD=senha do banco de dados
 
-Clone o repositório:
-git clone <https://github.com/douglasbks/kejinho>
-cd <kejinho>
-Instale as dependências:
-yarn install
-# ou
-npm install
-Inicie o servidor de desenvolvimento:
-expo start
-🗂️ Estrutura do Projeto
+- Clone o repositório:
+- git clone <https://github.com/douglasbks/kejinho>
+- cd <kejinho>
+- Instale as dependências:
+- yarn install
+- ou
+- npm install
+- Inicie o servidor de desenvolvimento:
+- expo start
+## 🗂️ Estrutura do Projeto
 assets/
    #Imagens usadas no app
 backend/
